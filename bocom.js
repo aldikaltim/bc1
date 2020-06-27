@@ -13,7 +13,7 @@ function makeid(length) {
  }
 
 const data = {
-  email: `dosalunuyul+${makeid(5)}@emailnyagantilahtolol.net`,
+  email: `emailharam613@gmail.com`,
   password: 'JanganZinaBang'
 }
 
