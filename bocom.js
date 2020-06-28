@@ -3,7 +3,7 @@
 const rp = require('request-promise')
 
 function makeid(length) {
-    var result           = '';
+    var result           = '+';
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     var charactersLength = characters.length;
     for ( var i = 0; i < length; i++ ) {
@@ -13,7 +13,7 @@ function makeid(length) {
  }
 
 const data = {
-  email: `emailharam613@gmail.com`,
+  email: `emailharam613+${makeid(3)}+@gmail.com`,
   password: 'JanganZinaBang'
 }
 
